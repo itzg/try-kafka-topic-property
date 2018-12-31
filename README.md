@@ -6,5 +6,5 @@ The main point of this project is the
 special `__listener` token is used in the `topics` SpEL to reference to the application configured
 topic.
 
-It's worth nothing that the use of `@Scheduled` on the `Producer`'s `sendTime` method did require
+It's worth noting that the use of `@Scheduled` on the `Producer`'s `sendTime` method did require
 scheduling to be enabled with `@EnableScheduling`.
