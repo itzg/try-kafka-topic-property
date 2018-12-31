@@ -1,0 +1,6 @@
+app:
+  topic: try-kafka-topic-property
+spring:
+  kafka:
+    consumer:
+      group-id: try-kafka-topic-property
