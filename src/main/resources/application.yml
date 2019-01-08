@@ -4,3 +4,11 @@ spring:
   kafka:
     consumer:
       group-id: try-kafka-topic-property
+      value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
+      properties:
+        spring:
+          json:
+            trusted:
+              packages: me.itzg.trykafkatopicproperty.model
+    producer:
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
